@@ -1,0 +1,45 @@
+<mjml>
+  <mj-body>
+
+    <!-- Header -->
+    <mj-section background-color="#4C247F">
+      <mj-column>
+        <mj-text color="#ffffff">Glitch Logo</mj-text>
+        <mj-text color="#525252" font-size="59px">Glitch Financial Heading Title and Message Text</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Introduction -->
+    <mj-section background-color="#FAFAFA">
+      <mj-column>
+        <mj-text color="#4F2683" font-size="42px">Hello Eddie,</mj-text>
+        <mj-text color="#4F2683" font-size="26px">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </mj-text>
+        <mj-text color="#4F2683" font-size="26px">
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Features -->
+    <mj-section background-color="#fafafa">
+      <mj-column>
+        <mj-text color="#4F2683" font-size="24px">In-App Feedback</mj-text>
+        <mj-text color="#4F2683">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text color="#4F2683" font-size="24px">Email Support</mj-text>
+        <mj-text color="#4F2683">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text color="#4F2683" font-size="24px">Community Forum</mj-text>
+        <mj-text color="#4F2683">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#fbfbfb"></mj-section>
+
+  </mj-body>
+</mjml>
