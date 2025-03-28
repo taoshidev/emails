@@ -1,31 +1,31 @@
 <mjml>
   <mj-head>
-     <mj-font name="Raleway"
-       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" />
+     <mj-font name="Inter"
+       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" />
+     <mj-font name="Montserrat"
+       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" />
    </mj-head>
   <mj-body>
-
-    <!-- Header -->
     <mj-section
-      background-size="cover"
+      full-width="full-width"
       background-url="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/header-bg.jpg" 
-      background-color="#4C247F"
+      background-color="#371A5B"
       background-repeat="no-repeat"
+      padding="20px 0"
     >
       <mj-column>
-        <mj-image width="302px" src="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/logo.png" />
-        <mj-text font-family="Montserrat" color="#ffffff" font-size="59px">Glitch Financial Heading Title and Message Text</mj-text>
+        <mj-image align="left" width="200px" src="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/logo.png" padding="10px 25px" />
+        <mj-text font-weight="800" font-family="Montserrat" color="#ffffff" font-size="36px" padding="20px 25px">Glitch Financial Heading Title and Message Text</mj-text>
       </mj-column>
     </mj-section>
 
-    <!-- Introduction -->
-    <mj-section background-color="#FAFAFA">
+    <mj-section full-width="full-width" background-color="#FAFAFA" padding="30px 0">
       <mj-column>
-        <mj-text font-family="Montserrat" color="#4F2683" font-size="42px">Hello Eddie,</mj-text>
-        <mj-text font-family="Inter" color="#4F2683" font-size="26px">
+        <mj-text font-weight="600" font-family="Montserrat" color="#4F2683" font-size="28px" padding="10px 25px">Hello Eddie,</mj-text>
+        <mj-text font-weight="300" font-family="Inter" color="#4F2683" font-size="18px" padding="10px 25px" line-height="1.5">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </mj-text>
-        <mj-text font-family="Inter" color="#4F2683" font-size="26px">
+        <mj-text font-weight="300" font-family="Inter" color="#4F2683" font-size="18px" padding="10px 25px" line-height="1.5">
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </mj-text>
       </mj-column>
@@ -33,43 +33,55 @@
 
     <!-- Features -->
     <mj-section 
+      full-width="full-width"
       background-size="cover"
       background-url="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/features-bg.jpg"
       background-color="#fafafa"
       background-repeat="no-repeat"
+      padding="40px 0"
     >
-      <mj-column>
-        <mj-image width="112px" src="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/features/feedback.jpg" />
-        <mj-text color="#4F2683" font-size="24px" align="center">In-App Feedback</mj-text>
-        <mj-text color="#4F2683" align="center">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</mj-text>
+      <mj-column padding="0 20px" width="33%">
+        <mj-image width="80px" src="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/features/feedback.png" padding-bottom="15px" />
+        <mj-text color="#4F2683" font-size="20px" font-weight="600" font-family="Montserrat" align="center" padding-bottom="10px">In-App Feedback</mj-text>
+        <mj-text color="#4F2683" font-size="16px" font-family="Inter" align="center" line-height="1.5" padding="0 5px">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</mj-text>
       </mj-column>
-      <mj-column>
-        <mj-image width="112px" src="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/features/email.jpg" />
-        <mj-text color="#4F2683" font-size="24px" align="center">Email Support</mj-text>
-        <mj-text color="#4F2683" align="center">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</mj-text>
+      <mj-column padding="0 20px" width="33%">
+        <mj-image width="80px" src="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/features/email.png" padding-bottom="15px" />
+        <mj-text color="#4F2683" font-size="20px" font-weight="600" font-family="Montserrat" align="center" padding-bottom="10px">Email Support</mj-text>
+        <mj-text color="#4F2683" font-size="16px" font-family="Inter" align="center" line-height="1.5" padding="0 5px">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</mj-text>
       </mj-column>
-      <mj-column>
-        <mj-image width="112px" src="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/features/community.jpg" />
-        <mj-text color="#4F2683" font-size="24px" align="center">Community Forum</mj-text>
-        <mj-text color="#4F2683" align="center">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</mj-text>
+      <mj-column padding="0 20px" width="33%">
+        <mj-image width="80px" src="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/features/community.png" padding-bottom="15px" />
+        <mj-text color="#4F2683" font-size="20px" font-weight="600" font-family="Montserrat" align="center" padding-bottom="10px">Community Forum</mj-text>
+        <mj-text color="#4F2683" font-size="16px" font-family="Inter" align="center" line-height="1.5" padding="0 5px">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</mj-text>
       </mj-column>
     </mj-section>
 
     <!-- Footer -->
     <mj-section
+      full-width="full-width"
       background-size="cover"
       background-url="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/footer.jpg"
-      background-color="#fafafa"
-      background-repeat="no-repeat">
-      <mj-column>
-        <mj-image width="188px" src="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/logo.png" />
+      background-color="#371A5B"
+      background-repeat="no-repeat"
+      padding="30px 0">
+      <mj-column vertical-align="middle">
+        <mj-image width="140px" src="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/logo.png" padding="10px 25px" />
       </mj-column>
-      <mj-column>
-        <mj-social>
-          <mj-social-element name="linkedin" />
-          <mj-social-element name="twitter" />
-          <mj-social-element name="discord" />
+      <mj-column vertical-align="middle">
+        <mj-social icon-size="30px" mode="horizontal" padding="10px 25px">
+          <mj-social-element name="x" href="https://x.com/taoshiio" background-color="#371A5B" />
+          <mj-social-element name="linkedin" href="https://linkedin.com/company/taoshiio" background-color="#371A5B" />
+          <mj-social-element href="https://discord.com/" background-color="#FF00FF" src="path-to-your-icon">
         </mj-social>
+      </mj-column>
+    </mj-section>
+    
+    <mj-section full-width="full-width" background-color="#371A5B" padding="10px 0">
+      <mj-column>
+        <mj-text color="#ffffff" font-size="12px" font-family="Inter" align="center">
+          © 2025 Taoshi. All rights reserved.
+        </mj-text>
       </mj-column>
     </mj-section>
 
