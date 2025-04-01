@@ -47,17 +47,17 @@
       <mj-column padding="0 10px" width="33%">
         <mj-image width="80px" src="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/features/feedback.png" padding-bottom="15px" />
         <mj-text color="#4F2683" font-size="20px" font-weight="600" font-family="Montserrat" align="center" padding-bottom="10px">In-App Feedback</mj-text>
-        <mj-text color="#4F2683" font-size="16px" font-family="Inter" align="center" line-height="1.5" padding="0 5px">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</mj-text>
+        <mj-text color="#4F2683" font-size="14px" font-family="Inter" align="center" line-height="1.5" padding="0 5px">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</mj-text>
       </mj-column>
       <mj-column padding="0 10px" width="33%">
-        <mj-image width="80px" src="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/features/email.png" padding-bottom="15px" />
+        <mj-image href="mailto:support@glitch.financial" width="80px" src="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/features/email.png" padding-bottom="15px" />
         <mj-text color="#4F2683" font-size="20px" font-weight="600" font-family="Montserrat" align="center" padding-bottom="10px">Email Support</mj-text>
-        <mj-text color="#4F2683" font-size="16px" font-family="Inter" align="center" line-height="1.5" padding="0 5px">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</mj-text>
+        <mj-text color="#4F2683" font-size="14px" font-family="Inter" align="center" line-height="1.5" padding="0 5px">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</mj-text>
       </mj-column>
       <mj-column padding="0 10px" width="33%">
-        <mj-image width="80px" src="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/features/community.png" padding-bottom="15px" />
+        <mj-image href="https://discord.gg/VfZue65SjA" width="80px" src="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/features/community.png" padding-bottom="15px" />
         <mj-text color="#4F2683" font-size="20px" font-weight="600" font-family="Montserrat" align="center" padding-bottom="10px">Community Forum</mj-text>
-        <mj-text color="#4F2683" font-size="16px" font-family="Inter" align="center" line-height="1.5" padding="0 5px">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</mj-text>
+        <mj-text color="#4F2683" font-size="14px" font-family="Inter" align="center" line-height="1.5" padding="0 5px">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</mj-text>
       </mj-column>
     </mj-section>
 
@@ -69,14 +69,14 @@
       background-color="#371A5B"
       background-repeat="no-repeat"
       padding="30px 0">
-      <mj-column vertical-align="middle">
-        <mj-image href="https://glitch.financial" width="140px" src="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/logo.png" padding="10px 25px" />
+      <mj-column width="50%">
+        <mj-image align="left" href="https://glitch.financial" width="140px" src="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/logo.png" />
       </mj-column>
-      <mj-column vertical-align="middle">
-        <mj-social icon-size="30px" mode="horizontal" padding="10px 25px">
+      <mj-column width="50%">
+        <mj-social icon-size="30px" mode="horizontal" align="right">
           <mj-social-element name="x" href="https://x.com/taoshiio" background-color="#371A5B" />
           <mj-social-element name="linkedin" href="https://linkedin.com/company/taoshiio" background-color="#371A5B" />
-          <mj-social-element href="https://discord.com/" background-color="#37195B" src="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/discord.png">
+          <mj-social-element href="https://discord.gg/VfZue65SjA" background-color="#37195B" src="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/discord.png">
         </mj-social>
       </mj-column>
     </mj-section>
@@ -88,8 +88,8 @@
         </mj-text>
       </mj-column>
     </mj-section>
-      <mj-raw>
-        {{standard_footer_includes}}
-      </mj-raw>
+    <mj-raw>
+      {{standard_footer_includes}}
+    </mj-raw>
   </mj-body>
 </mjml>
