@@ -72,7 +72,7 @@
         <mj-social icon-size="30px" mode="horizontal" padding="10px 25px">
           <mj-social-element name="x" href="https://x.com/taoshiio" background-color="#371A5B" />
           <mj-social-element name="linkedin" href="https://linkedin.com/company/taoshiio" background-color="#371A5B" />
-          <mj-social-element href="https://discord.com/" background-color="#FF00FF" src="path-to-your-icon">
+          <mj-social-element href="https://discord.com/" background-color="#37195B" src="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/discord.png">
         </mj-social>
       </mj-column>
     </mj-section>
