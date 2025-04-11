@@ -1,11 +1,7 @@
 <mjml>
   <mj-head>
-     <mj-font name="Inter"
-       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" />
-     <mj-font name="Montserrat"
-       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" />
      <mj-attributes>
-       <mj-all width="600px" />
+       <mj-all width="600px" font-family="Arial, sans-serif" />
      </mj-attributes>
    </mj-head>
   <mj-body width="600px">
@@ -16,9 +12,9 @@
     background-repeat="no-repeat"
   >
     <mj-section padding="0">
-      <mj-column padding="0">
-        <mj-image align="left" width="200px" src="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/logo.png" padding-bottom="20px"/>
-        <mj-text font-weight="800" font-family="Montserrat" color="#ffffff" font-size="36px">Welcome to the Glitch Financial Beta!</mj-text>
+      <mj-column>
+        <mj-image align="left" width="200px" src="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/logo.png" />
+        <mj-text font-weight="800" color="#ffffff" font-size="36px">Welcome to the Glitch Financial Beta!</mj-text>
       </mj-column>
     </mj-section>
     </mj-wrapper>
@@ -41,18 +37,18 @@
     >
       <mj-column padding="0 10px" width="33%">
         <mj-image width="80px" src="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/features/feedback.png" padding-bottom="15px" />
-        <mj-text color="#4F2683" font-size="20px" font-weight="600" font-family="Montserrat" align="center" padding-bottom="10px">In-App Feedback</mj-text>
-        <mj-text color="#4F2683" font-size="14px" font-family="Inter" align="center" line-height="1.5" padding="0 5px">Utilize the feedback button within our platform to provide feedback directly to our team.</mj-text>
+        <mj-text color="#4F2683" font-size="20px" font-weight="600" align="center" padding-bottom="10px">In-App Feedback</mj-text>
+        <mj-text color="#4F2683" font-size="14px" align="center" line-height="1.5" padding="0 5px">Utilize the feedback button within our platform to provide feedback directly to our team.</mj-text>
       </mj-column>
       <mj-column padding="0 10px" width="33%">
         <mj-image href="mailto:support@glitch.financial" width="80px" src="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/features/email.png" padding-bottom="15px" />
-        <mj-text color="#4F2683" font-size="20px" font-weight="600" font-family="Montserrat" align="center" padding-bottom="10px">Email Support</mj-text>
-        <mj-text color="#4F2683" font-size="14px" font-family="Inter" align="center" line-height="1.5" padding="0 5px">Contact our support team for personalized assistance at support@glitch.financial.</mj-text>
+        <mj-text color="#4F2683" font-size="20px" font-weight="600" align="center" padding-bottom="10px">Email Support</mj-text>
+        <mj-text color="#4F2683" font-size="14px" align="center" line-height="1.5" padding="0 5px">Contact our support team for personalized assistance at support@glitch.financial.</mj-text>
       </mj-column>
       <mj-column padding="0 10px" width="33%">
         <mj-image href="https://discord.gg/VfZue65SjA" width="80px" src="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/features/community.png" padding-bottom="15px" />
-        <mj-text color="#4F2683" font-size="20px" font-weight="600" font-family="Montserrat" align="center" padding-bottom="10px">Community Forum</mj-text>
-        <mj-text color="#4F2683" font-size="14px" font-family="Inter" align="center" line-height="1.5" padding="0 5px">Join our <a href="https://discord.gg/VfZue65SjA">Discord community</a> to ask questions and share ideas with others.</mj-text>
+        <mj-text color="#4F2683" font-size="20px" font-weight="600" align="center" padding-bottom="10px">Community Forum</mj-text>
+        <mj-text color="#4F2683" font-size="14px" align="center" line-height="1.5" padding="0 5px">Join our <a href="https://discord.gg/VfZue65SjA">Discord community</a> to ask questions and share ideas with others.</mj-text>
       </mj-column>
     </mj-section>
 
@@ -77,14 +73,14 @@
     
     <mj-section background-color="#371A5B" padding="10px 0">
       <mj-column>
-        <mj-text color="#ffffff" font-size="12px" font-family="Inter" align="center">
+        <mj-text color="#ffffff" font-size="12px" align="center">
           © 2025 Taoshi. All rights reserved.
         </mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#F8F8F8" padding="15px 0">
       <mj-column>
-        <mj-text color="#888888" font-size="10px" font-family="Inter" align="center" line-height="1.2" padding="0 20px">
+        <mj-text color="#888888" font-size="10px" align="center" line-height="1.2" padding="0 20px">
           {% if site_settings.company_name %}{{ site_settings.company_name }}{% endif %}{% if site_settings.company_street_address_1 %}&nbsp;{{ site_settings.company_street_address_1 }}{% endif %}{% if site_settings.company_street_address_2 %}&nbsp;{{ site_settings.company_street_address_2 }}{% endif %}{% if site_settings.company_city %}&nbsp;{{ site_settings.company_city }}{% endif %}{% if site_settings.company_state %}&nbsp;{{ site_settings.company_state }}{% endif %}{% if site_settings.company_zip %}&nbsp;{{ site_settings.company_zip }}{% endif %}{% if site_settings.company_country %}&nbsp;{{ site_settings.company_country }}{% endif %}
           <br><br>
           You received this email because you are subscribed to {{ subscription_name }} from {% if site_settings.company_name %}{{ site_settings.company_name }}{% endif %}.
