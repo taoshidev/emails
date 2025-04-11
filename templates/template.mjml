@@ -4,40 +4,34 @@
        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" />
      <mj-font name="Montserrat"
        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" />
-
-       <mj-raw>
-        {{ standard_header_includes }}
-       </mj-raw>
+     <mj-attributes>
+       <mj-all width="600px" />
+     </mj-attributes>
    </mj-head>
-  <mj-body>
-    <mj-section
-      full-width="full-width"
-      background-url="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/header-bg.jpg" 
-      background-color="#371A5B"
-      background-repeat="no-repeat"
-      padding="20px 0"
-    >
+  <mj-body width="600px">
+  <mj-wrapper
+    background-url="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/header-bg.jpg" 
+    background-color="#371A5B"
+    background-repeat="no-repeat"
+  >
+    <mj-section padding="20px 0">
       <mj-column>
         <mj-image align="left" width="200px" src="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/logo.png" padding="10px 25px" />
-        <mj-text font-weight="800" font-family="Montserrat" color="#ffffff" font-size="36px" padding="20px 25px">Glitch Financial Heading Title and Message Text</mj-text>
+        <mj-text font-weight="800" font-family="Montserrat" color="#ffffff" font-size="36px" padding="20px 25px">Welcome to the Glitch Financial Beta!</mj-text>
       </mj-column>
     </mj-section>
+    </mj-wrapper>
 
-    <mj-section full-width="full-width" background-color="#FAFAFA" padding="30px 0">
+    <mj-section background-color="#FAFAFA" padding="30px 0">
       <mj-column>
-        <mj-text font-weight="600" font-family="Montserrat" color="#4F2683" font-size="28px" padding="10px 25px">Hello Eddie,</mj-text>
-        <mj-text font-weight="300" font-family="Inter" color="#4F2683" font-size="18px" padding="10px 25px" line-height="1.5">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </mj-text>
-        <mj-text font-weight="300" font-family="Inter" color="#4F2683" font-size="18px" padding="10px 25px" line-height="1.5">
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </mj-text>
+        <mj-raw>
+          {% module "email_template_main_email_body" path="@hubspot/email_body" label="Main Email Body" %}
+        </mj-raw>
       </mj-column>
     </mj-section>
 
     <!-- Features -->
     <mj-section 
-      full-width="full-width"
       background-size="cover"
       background-url="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/features-bg.jpg"
       background-color="#fafafa"
@@ -47,23 +41,22 @@
       <mj-column padding="0 10px" width="33%">
         <mj-image width="80px" src="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/features/feedback.png" padding-bottom="15px" />
         <mj-text color="#4F2683" font-size="20px" font-weight="600" font-family="Montserrat" align="center" padding-bottom="10px">In-App Feedback</mj-text>
-        <mj-text color="#4F2683" font-size="14px" font-family="Inter" align="center" line-height="1.5" padding="0 5px">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</mj-text>
+        <mj-text color="#4F2683" font-size="14px" font-family="Inter" align="center" line-height="1.5" padding="0 5px">Utilize the feedback button within our platform to provide feedback directly to our team.</mj-text>
       </mj-column>
       <mj-column padding="0 10px" width="33%">
         <mj-image href="mailto:support@glitch.financial" width="80px" src="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/features/email.png" padding-bottom="15px" />
         <mj-text color="#4F2683" font-size="20px" font-weight="600" font-family="Montserrat" align="center" padding-bottom="10px">Email Support</mj-text>
-        <mj-text color="#4F2683" font-size="14px" font-family="Inter" align="center" line-height="1.5" padding="0 5px">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</mj-text>
+        <mj-text color="#4F2683" font-size="14px" font-family="Inter" align="center" line-height="1.5" padding="0 5px">Contact our support team for personalized assistance at support@glitch.financial.</mj-text>
       </mj-column>
       <mj-column padding="0 10px" width="33%">
         <mj-image href="https://discord.gg/VfZue65SjA" width="80px" src="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/features/community.png" padding-bottom="15px" />
         <mj-text color="#4F2683" font-size="20px" font-weight="600" font-family="Montserrat" align="center" padding-bottom="10px">Community Forum</mj-text>
-        <mj-text color="#4F2683" font-size="14px" font-family="Inter" align="center" line-height="1.5" padding="0 5px">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</mj-text>
+        <mj-text color="#4F2683" font-size="14px" font-family="Inter" align="center" line-height="1.5" padding="0 5px">Join our <a href="https://discord.gg/VfZue65SjA">Discord community</a> to ask questions and share ideas with others.</mj-text>
       </mj-column>
     </mj-section>
 
     <!-- Footer -->
     <mj-section
-      full-width="full-width"
       background-size="cover"
       background-url="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/footer.jpg"
       background-color="#371A5B"
@@ -81,15 +74,24 @@
       </mj-column>
     </mj-section>
     
-    <mj-section full-width="full-width" background-color="#371A5B" padding="10px 0">
+    <mj-section background-color="#371A5B" padding="10px 0">
       <mj-column>
         <mj-text color="#ffffff" font-size="12px" font-family="Inter" align="center">
           © 2025 Taoshi. All rights reserved.
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-raw>
-      {{standard_footer_includes}}
-    </mj-raw>
+    <mj-section background-color="#F8F8F8" padding="15px 0">
+      <mj-column>
+        <mj-text color="#888888" font-size="10px" font-family="Inter" align="center" line-height="1.2" padding="0 20px">
+          {% if site_settings.company_name %}{{ site_settings.company_name }}{% endif %}{% if site_settings.company_street_address_1 %}&nbsp;{{ site_settings.company_street_address_1 }}{% endif %}{% if site_settings.company_street_address_2 %}&nbsp;{{ site_settings.company_street_address_2 }}{% endif %}{% if site_settings.company_city %}&nbsp;{{ site_settings.company_city }}{% endif %}{% if site_settings.company_state %}&nbsp;{{ site_settings.company_state }}{% endif %}{% if site_settings.company_zip %}&nbsp;{{ site_settings.company_zip }}{% endif %}{% if site_settings.company_country %}&nbsp;{{ site_settings.company_country }}{% endif %}
+          <br><br>
+          You received this email because you are subscribed to {{ subscription_name }} from {% if site_settings.company_name %}{{ site_settings.company_name }}{% endif %}.
+          <br><br>
+          <a style="color: #4F2683; text-decoration: none;" class="hubspot-mergetag" data-unsubscribe="true" href="{{ unsubscribe_link }}">Update your email preferences</a> • 
+          <a style="color: #4F2683; text-decoration: none;" class="hubspot-mergetag" data-unsubscribe="true" href="{{ unsubscribe_link_all }}">Unsubscribe</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
