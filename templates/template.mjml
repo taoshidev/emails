@@ -12,12 +12,13 @@
   <mj-wrapper
     background-url="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/header-bg.jpg" 
     background-color="#371A5B"
+    background-size="cover"
     background-repeat="no-repeat"
   >
-    <mj-section padding="20px 0">
-      <mj-column>
-        <mj-image align="left" width="200px" src="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/logo.png" padding="10px 25px" />
-        <mj-text font-weight="800" font-family="Montserrat" color="#ffffff" font-size="36px" padding="20px 25px">Welcome to the Glitch Financial Beta!</mj-text>
+    <mj-section padding="0">
+      <mj-column padding="0">
+        <mj-image align="left" width="200px" src="https://raw.githubusercontent.com/taoshidev/emails/refs/heads/main/assets/logo.png" padding-bottom="20px"/>
+        <mj-text font-weight="800" font-family="Montserrat" color="#ffffff" font-size="36px">Welcome to the Glitch Financial Beta!</mj-text>
       </mj-column>
     </mj-section>
     </mj-wrapper>
